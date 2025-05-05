@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dotnetmvccontainer
-        image: uzumakinabin/tp_backend_itax
+        image: uzumakinabin/tp_front
         ports:
         - containerPort: 5206
         resources:
