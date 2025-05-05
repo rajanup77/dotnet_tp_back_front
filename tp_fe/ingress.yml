@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: tpfe-ingress
+  name: tpfeingress
   namespace: taxp
   annotations:
     nginx.ingress.kubernetes.io/backend-protocol: HTTP
