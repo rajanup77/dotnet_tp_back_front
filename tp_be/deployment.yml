@@ -17,7 +17,7 @@ spec:
       - name: tpbecontainer
         image: uzumakinabin/tp_backend_itax
         ports:
-        - containerPort: 6288
+        - containerPort: 80
         resources:
           requests:
             cpu: "500m"
