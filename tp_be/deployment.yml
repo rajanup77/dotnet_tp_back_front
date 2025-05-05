@@ -17,11 +17,11 @@ spec:
       - name: tpbecontainer
         image: uzumakinabin/tp_backend_itax
         ports:
-        - containerPort: 5206
+        - containerPort: 6288
         resources:
           requests:
             cpu: "500m"
-            memory: "512Mi"
+            memory: "256Mi"
           limits:
             cpu: "1000m"
             memory: "1024Mi"
