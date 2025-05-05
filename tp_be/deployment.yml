@@ -14,7 +14,7 @@ spec:
         name: podkoname
     spec:
       containers:
-      - name: dotnetmvccontainer
+      - name: tpbecontainer
         image: uzumakinabin/tp_backend_itax
         ports:
         - containerPort: 5206
