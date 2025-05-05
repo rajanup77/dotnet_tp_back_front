@@ -14,7 +14,7 @@ spec:
         name: podkoname
     spec:
       containers:
-      - name: dotnetmvccontainer
+      - name: tpfecontainer
         image: uzumakinabin/tp_front
         ports:
         - containerPort: 8289
