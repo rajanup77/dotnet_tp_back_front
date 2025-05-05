@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tpbedeployment
+  namespace: taxp
+spec:
+  selector:
+    matchLabels:
+      name: podkoname
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: podkoname
+    spec:
+      containers:
+      - name: dotnetmvccontainer
+        image: uzumakinabin/tp_backend_itax
+        ports:
+        - containerPort: 5206
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "512Mi"
+          limits:
+            cpu: "1000m"
+            memory: "1024Mi"
