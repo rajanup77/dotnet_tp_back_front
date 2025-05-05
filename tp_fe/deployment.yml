@@ -17,7 +17,7 @@ spec:
       - name: dotnetmvccontainer
         image: uzumakinabin/tp_front
         ports:
-        - containerPort: 5206
+        - containerPort: 8289
         resources:
           requests:
             cpu: "500m"
