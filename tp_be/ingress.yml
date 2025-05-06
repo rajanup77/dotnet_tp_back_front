@@ -15,7 +15,7 @@ spec:
         paths:
           - backend:
               service:
-                name: svckoname
+                name: besvckoname
                 port:
                   name: http
             path: /
